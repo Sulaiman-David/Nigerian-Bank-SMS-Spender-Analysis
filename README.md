@@ -56,9 +56,9 @@ Project Structure
 Bank-SMS-Spender/
 
 bank_sms_analysis.ipynb       # Main notebook
-nigerian_bank_sms_logs.csv    # Generated synthetic dataset
+Nigerian_bank_sms_logs.csv    # Generated synthetic dataset
 README.md                     # Project documentation
-images/                       # (Optional) Saved charts
+Images/                       # (Optional) Saved charts
 
 
 
