@@ -41,7 +41,7 @@ Multiple SMS formats (GTB-style, Access/Zenith-style)
 Extra “noise messages” to simulate real inbox conditions
 
 
-3. Data Cleaning & Parsing
+2. Data Cleaning & Parsing
 
 Using Python and regex, the notebook extracts:
 
@@ -56,12 +56,12 @@ Transaction date
 and removes irrelevant messages.
 
 
-5. Categorization Logic
-6. 
+3. Categorization Logic
+
 Vendors are mapped to spending categories using keyword-based rules.
 
 
-7. Exploratory Data Analysis
+4. Exploratory Data Analysis
 Includes:
 
 Total spending by category
@@ -73,21 +73,21 @@ Spending distribution plots
 Bar charts, pie charts, and trend charts
 
 
-9. Fully Modular Code
-10. 
+5. Fully Modular Code
+
 Every part of the pipeline—generation, cleaning, extraction, categorization, visualization—is reusable and easy to expand.
 
 Project Structure
 
 Bank-SMS-Spender/
 
-bank_sms_analysis.ipynb             # Main notebook
+bank_sms_analysis.ipynb (Main notebook)
 
-Nigerian_bank_sms_logs.csv          # Generated synthetic dataset
+Nigerian_bank_sms_logs.csv (Generated synthetic dataset)
 
-README.md                           # Project documentation
+README.md (Project documentation)
 
-Images/                             # (Optional) Saved charts
+Images/ (Saved charts)
 
 
 
