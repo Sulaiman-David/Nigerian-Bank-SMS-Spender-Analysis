@@ -1,12 +1,18 @@
 # Nigerian-Bank-SMS-Spender-Analysis
 
 Overview
+
 This project simulates, parses, cleans, and analyzes Nigerian bank debit SMS alerts.
 The goal is to transform unstructured SMS text into structured financial data, allowing you to compute spending insights such as:
+
 Categorized spending (Food, Transport, Groceries, etc.)
+
 Total amount spent
+
 Vendor-level analysis
+
 Daily/weekly/monthly spending behavior
+
 Visualizations of spending distribution
 
 The dataset is synthetically generated but modeled after real SMS formats used by major Nigerian banks (GTBank, Access Bank, Zenith Bank, UBA, FCMB, etc.).
@@ -17,42 +23,62 @@ This makes the project excellent for data cleaning, regex extraction, feature en
 
 
 Features
+
 This project includes:
 
 1. Synthetic Data Generation
+
 Creates hundreds of realistic SMS alerts with:
+
 Vendor names
+
 Debit amounts
+
 Randomized timestamps
+
 Multiple SMS formats (GTB-style, Access/Zenith-style)
+
 Extra “noise messages” to simulate real inbox conditions
 
 
-2. Data Cleaning & Parsing
+3. Data Cleaning & Parsing
+
 Using Python and regex, the notebook extracts:
+
 Debit amount
+
 Vendor name
+
 Transaction category
+
 Transaction date
+
 and removes irrelevant messages.
 
 
-3. Categorization Logic
+5. Categorization Logic
+6. 
 Vendors are mapped to spending categories using keyword-based rules.
 
 
-4. Exploratory Data Analysis
+7. Exploratory Data Analysis
 Includes:
+
 Total spending by category
+
 Vendor frequency
+
 Spending distribution plots
+
 Bar charts, pie charts, and trend charts
 
 
-5. Fully Modular Code
+9. Fully Modular Code
+10. 
 Every part of the pipeline—generation, cleaning, extraction, categorization, visualization—is reusable and easy to expand.
 
 Project Structure
+
 Bank-SMS-Spender/
 
 bank_sms_analysis.ipynb             # Main notebook
@@ -67,18 +93,26 @@ Images/                             # (Optional) Saved charts
 
 Tools & Libraries
 This project uses:
+
 Python 3.x
+
 pandas
+
 numpy
+
 re (regex)
+
 matplotlib
+
 seaborn
+
 datetime
 
 All dependencies are standard.
 
 
 How It Works
+
 STEP 1 – Generate Dataset
 The script:
 Picks a random vendor
