@@ -54,11 +54,11 @@ Every part of the pipeline—generation, cleaning, extraction, categorization, v
 
 Project Structure
 Bank-SMS-Spender/
-│
-├── bank_sms_analysis.ipynb       # Main notebook
-├── nigerian_bank_sms_logs.csv    # Generated synthetic dataset
-├── README.md                     # Project documentation
-└── images/                       # (Optional) Saved charts
+
+bank_sms_analysis.ipynb       # Main notebook
+nigerian_bank_sms_logs.csv    # Generated synthetic dataset
+README.md                     # Project documentation
+images/                       # (Optional) Saved charts
 
 
 
